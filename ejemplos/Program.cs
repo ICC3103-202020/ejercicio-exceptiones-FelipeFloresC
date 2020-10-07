@@ -10,7 +10,8 @@ namespace ejemplos
     {
         public static void Main(string[] args)
         {
-            // poema - manejo de error
+            Console.WriteLine("poema - manejo de error");
+            Console.WriteLine();
             Console.WriteLine("Cada ves que pienso en tí,");
             Console.WriteLine("mis ojos rompen en llanto;");
             Console.WriteLine("y muy triste me pregunto,");
@@ -25,7 +26,8 @@ namespace ejemplos
                 
             } while (gustaPoema == 2);
 
-            // probar división - Crear una excepción personalizada
+            Console.WriteLine("probar división - Crear una excepción personalizada");
+            Console.WriteLine();
             Division div = new Division();
             try
             {
