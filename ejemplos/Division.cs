@@ -8,7 +8,7 @@ namespace ejemplos
 {
     class Division
     {
-        public void Dividir(int dividendo, int divisor)
+        public void Dividir(float dividendo, float divisor)
         {
             if (divisor == 0)
             {

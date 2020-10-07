@@ -32,9 +32,10 @@ namespace ejemplos
             try
             {
                 Console.WriteLine("ingrese el dividendo");
-                int dividendo = System.Convert.ToInt32(Console.ReadLine());
+                float dividendo = (float)System.Convert.ToDecimal(Console.ReadLine());
                 Console.WriteLine("ingrese el divisor");
-                int divisor = System.Convert.ToInt32(Console.ReadLine());
+                float divisor = (float)System.Convert.ToDecimal(Console.ReadLine());
+              
                 div.Dividir(dividendo, divisor);
             }
             catch (DivididoPorCero d)
